@@ -18,4 +18,4 @@ if command == "help":
     print ("use Ctrl + C to stop")
 if command == "about":
     os.system('cls')
-    print ("Developer: Scorpion_Rn \nTelegram channel: https://t.me/Salavat_Shomar_App_Channel \nGithub: https://github.com/ScorpionRn/SalavatShoma ")
+    print ("Developer: Scorpion_Rn \nTelegram channel: https://t.me/Salavat_Shomar_App_Channel \nGithub: https://github.com/ScorpionRn/SalavatShomar ")
