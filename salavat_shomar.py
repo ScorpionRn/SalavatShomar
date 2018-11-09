@@ -2,20 +2,28 @@ import os
 
 count = 0
 
-os.system('cls')
+def clear():
+    c = { "linux":"clear" , "win":"cls"}
+    if os.name != "nt":
+        os.system(c["linux"])
+    else:
+        os.system(c["win"])
+    return
+	
+clear()
 print("what do you want to do?\n|___help :: Show help message\n|___start :: Start counting\n|___about :: Show about we\n==>")
 command = input()
 if command == "start":
   while True:
-    os.system('cls')
+    clear()
     print (count)
     count += 1
     stop = input()
     if stop != "":
       break    
 if command == "help":
-    os.system('cls')
+    clear()
     print ("use Ctrl + C to stop")
 if command == "about":
-    os.system('cls')
-    print ("Developer: Scorpion_Rn \nTelegram channel: https://t.me/Salavat_Shomar_App_Channel \nGithub: https://github.com/ScorpionRn/SalavatShomar ")
+    clear()
+    print ("Developer: Scorpion_Rn \nTelegram channel: \nGithub: \nSite: ")
